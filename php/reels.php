@@ -129,7 +129,7 @@
 
                 echo "<div class='reel-item-info-II'>";
                   echo "<p>{$rivi->AverageRating} | {$rivi->ReleaseYear} | {$rivi->Genre} | {$rivi->Director}</p>";
-                  echo "<img src='/reelsphere/reels/{$rivi->Poster}' alt='{$rivi->Title} Poster' class='poster-image'>";
+                  echo "<img src='../reelsphere/reels/{$rivi->Poster}' alt='{$rivi->Title} Poster' class='poster-image'>";
                 echo "</div>";
 
                 // Display options for admins:

@@ -113,7 +113,7 @@
 
         <!-- BACKGROUND IMAGE: -->
         <div class="background-image">
-          <img src="/reelsphere/reels/<?php echo htmlspecialchars($row['Background']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?> Background" class="background-image">
+          <img src="../reelsphere/reels/<?php echo htmlspecialchars($row['Background']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?> Background" class="background-image">
         </div>
 
         <div class="reel-information">
@@ -124,7 +124,7 @@
           </header>
           
           <!-- INFORMATION: -->
-          <img src="/reelsphere/reels/<?php echo htmlspecialchars($row['Poster']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?> Poster" class="poster-image">
+          <img src="../reelsphere/reels/<?php echo htmlspecialchars($row['Poster']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?> Poster" class="poster-image">
           
           <div class="reel-information-I">
             <p>Rating: <?php echo htmlspecialchars($row['AverageRating']); ?> | Release Year: <?php echo htmlspecialchars($row['ReleaseYear']); ?></p>
