@@ -118,7 +118,7 @@
               <div class="col">
                 <input type="text" name="Rating" class="form-control" placeholder="Rating (1-10)" aria-label="rating"
                   minlength="3" maxlength="3" pattern="^\d+(\.\d{1,2})?$" readonly
-                  required value="<?php echo isset($rivi) ? htmlspecialchars($rivi->Rating) : ''; ?>">
+                  required value="<?php echo isset($rivi) ? htmlspecialchars($rivi->AverageRating) : ''; ?>">
               </div>
               <div class="col">
                 <input type="text" name="ReleaseYear" class="form-control" placeholder="Release Year (xxxx)"
