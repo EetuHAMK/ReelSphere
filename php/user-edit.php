@@ -133,12 +133,11 @@
 
           <!-- PASSWORD: -->
           <div class="email-password">
-            <label for="Password" class="form-label">Password</label>
+            <label for="Password" class="form-label">New Password (leave blank to keep the current password)</label>
             <input type="password" id="Password" name="Password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least:
               one number |
               one uppercase & lowercase letter |
-              at least 8 or more characters!" required
-              value="<?php echo isset($rivi) ? htmlspecialchars($rivi->Password) : ''; ?>">
+              at least 8 or more characters!">
           </div>
 
           <!-- HIDDEN INPUT FOR USER ID: -->
