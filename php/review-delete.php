@@ -7,6 +7,11 @@
     session_start();
   }
 
+  if (!isset($_SESSION["UserID"])) {
+    header("Location: ../pages/login.html");
+    exit;
+  }
+
   $ReelID = isset($_GET['ReelID']) ? intval($_GET['ReelID']) : 0;
   $deleted=isset($_GET["deleted"]) ? $_GET["deleted"] : "";
 
