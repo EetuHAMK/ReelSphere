@@ -7,6 +7,7 @@
     session_start();
   }
 
+  // USER CHECK!
   if (!isset($_SESSION["UserID"])) {
     header("Location: ../pages/login.html");
     exit;
