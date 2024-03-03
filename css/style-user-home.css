@@ -333,6 +333,8 @@ footer{
 
   .maintitle{
     text-align: center;
+    user-select: none;
+    pointer-events: none;
     font-size: 5dvh;
     color: rgba(242, 187, 5, 1);
     text-shadow: 0 0 10px rgba(242, 187, 5, 1);
